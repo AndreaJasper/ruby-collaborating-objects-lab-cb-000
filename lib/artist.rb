@@ -14,8 +14,4 @@ class Artist
   def songs
     @songs
   end
-
-  def self.save
-    @@all
-  end
 end
