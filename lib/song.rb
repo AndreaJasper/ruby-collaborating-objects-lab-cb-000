@@ -7,11 +7,7 @@ class Song
   end
 
   def artist_name
-    if self.artist
-      self.artist.name
-    else
-      return nil
-    end
+    self.artist.name 
   end
 
   def self.new_by_filename(filename)
