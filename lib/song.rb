@@ -19,4 +19,8 @@ class Song
     song.title = filename.split(" - ")[1]
     song
   end
+
+  def self.all
+    @@all
+  end
 end
